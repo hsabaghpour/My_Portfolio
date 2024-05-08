@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />  
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">L</div>
+        <div class="logo-text">Portfolio Website</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:hossein.sabbaghpour@gmail.com" class="button"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi I'm</small>
+              Alex Sabbaghpour
+            </h1>
+            <p>
+              Picture this: I've spent over a decade rocking the wireless world
+              with TELUS, Ericsson, Nokia, and Huawei—yeah, the big dogs. I'm
+              all about UMTS, LTE, 5G, TCP/IP, and dissecting network protocols
+              like a digital Sherlock. <span>Armed with a Bachelor's in Electrical
+              and Telecommunication Engineering and hacking away at a Master's in
+              Data Science, I'm constantly leveling up with AWS Cloud,
+              cybersecurity, Python, and machine learning.</span> Oh, and did I mention
+              I'm proudly Canadian, eh? Catch me geeking out about smart cities
+              and IoT while diving deep into ML, deep learning, and LLM projects
+              to boost my AI game. Let's jam on some cutting-edge tech—sound
+              good?
+            <span>I'm interested in AI topics which is why I also add things like
+                ChatGPT into my projects these days.</span>
+            </p>
+            <div class="call-to-action">
+              <a href="./Sample_Resume_Template.pdf" class="button black">
+                View Resume
+              </a>
+              <a
+                href="mailto:hossein.sabbaghpour@gmail.com"
+                class="button white"
+              >
+                Contact Me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="#">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a href="#">
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-yellow" style="display: flex; justify-content: center; align-items: center;">
+            <img src="./imgs/Amir_pic.JPG" alt="Alex Sabbaghpour" style="max-width: 100%; max-height: 100%;" />
+          </div>
+          
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./imgs/azure.png" width="128" alt="Azure" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/python.png" width="128" alt="Python" />
+            <img src="./imgs/AWS-Cloud.png" width="128" alt="AWS" />
+            <img src="./imgs/ML.png" width="128" alt="Machine Learning" />
+            <img src="./imgs/5G.png" width="128" alt="5G" />
+            <img src="./imgs/NBIOT.png" width="128" alt="IoT" />
+            <img src="./imgs/deep-learning.jpg" width="128" alt="Deep Learning" />
+            <img src="./imgs/SciKid-Learn.png" width="128" alt="SKL" />
+            <img src="./imgs/TF.png" width="128" alt="TF" />
+            <img src="./imgs/PyTorch.png" width="128" alt="PYT" />
+            <img src="./imgs/R.png" width="128" alt="R" />
+            <img src="./imgs/statistics-2.webp" width="128" alt="Stat" />
+            <img src="./imgs/azure.png" width="128" alt="Azure" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/python.png" width="128" alt="Python" />
+            <img src="./imgs/AWS-Cloud.png" width="128" alt="AWS" />
+            <img src="./imgs/ML.png" width="128" alt="Machine Learning" />
+            <img src="./imgs/5G.png" width="128" alt="5G" />
+            <img src="./imgs/NBIOT.png" width="128" alt="IoT" />
+            <img src="./imgs/deep-learning.jpg" width="128" alt="Deep Learning" />
+            <img src="./imgs/SciKid-Learn.png" width="128" alt="SKL" />
+            <img src="./imgs/TF.png" width="128" alt="TF" />
+            <img src="./imgs/PyTorch.png" width="128" alt="PYT" />
+            <img src="./imgs/R.png" width="128" alt="R" />
+            <img src="./imgs/statistics-2.webp" width="128" alt="Stat" />
+
+
+
+
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>RF Engineering</h3>
+            <ul>
+              <li>Planning</li>
+              <li>Optimization</li>
+              <li>UMTS</li>
+              <li>LTE</li>
+              <li>5G</li>
+              <li>ORAN</li>
+              <li>NBIoT</li>
+            </ul>
+            <h3>Data science and analytics</h3>
+            <ul>
+              <li>SQL</li>
+              <li>Python programming</li>
+              <li>R programming</li>
+              <li>Statistics</li>
+              <li>Machine Learning</li>
+              <li>Deep learning</li>
+            </ul>
+        </ul>
+        <h3>Cloud Computing</h3>
+        <ul>
+          <li>AWS ML specialty</li>
+          <li>Azure</li>
+          <li>GCP</li>
+
+        </ul>
+
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              Welcome to my digital hub! I'm Alex Sabbaghpour, your resident
+              wireless maestro and data science enthusiast. Diving Deep:
+              Currently, I'm not just slinging code; I'm diving headfirst into
+              ML, deep learning, and LLM projects to supercharge my AI game.
+              Passion Projects: When I'm not crunching numbers, I'm all about
+              intelligent cities and IoT solutions. Let's make the world
+              smarter, one byte at a time! Connect with Me: Got a cool AI idea
+              or just want to chat tech? Let's connect!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="work-experience container">
+        <h2>
+          <small>Recent</small>
+          Work Experiences and Projects
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/FA8A7B1C-54FE-4A0A-9884-D92FD4F6097A.jpeg"
+                  alt="TELUS office - RF Engineering and data analytics" 
+                  width="100%"
+                />
+                <figcaption>TELUS office</figcaption>
+              </div>
+            </figure>
+            <h3>RF Engineering and data analytics</h3>
+            <div>2019-2024</div>
+            <p>
+                I proudly served as an RF engineer and data scientist at Telus 
+                for the past five years. Working alongside a highly talented team, 
+                I've gained invaluable experience and contributed to several successful projects,
+                 including SWAP and Automations!
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/Clustering K-Nearest.png"
+                  alt="Custering"
+                  width="100%"
+                />
+                <figcaption>Clustering- K K-Nearest NBR</figcaption>
+              </div>
+            </figure>
+            <h3> California Housing Model</h3>
+            <div>2024</div>
+            <p>
+                In this project, I'll demonstrate a machine learning example 
+                within a real estate context. We'll cover essential steps, 
+                including dataset acquisition, exploration, and visualization,
+                 model training with linear regression, Decision Tree, and Random Forest, 
+                 comparing their performances, and fine-tuning the best model. Finally,
+                  we'll present the solution and discuss system deployment and maintenance!
+
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/94B7F0C2-A4EC-45DC-A83D-C0BF9F6A811F_1_105_c.jpeg"
+                  alt="Salma&I"
+                  width="100%"
+                />
+                <figcaption>Our Business</figcaption>
+              </div>
+            </figure>
+            <h3>S&A intelegence</h3>
+            <div>2023 - present</div>
+            <p>
+                An organization, spanning from small to large businesses, 
+                dedicated to providing comprehensive guidance and support 
+                in data science and analytics.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="projects" class="bento container">
+
+      </section>
+      <section class="chatbot container">
+        <h2>
+          <small> Talk to me </small>
+          Chatbot
+        </h2>
+        <div class="chatbot-blue">
+          <div class="chat-info">
+            <h3>Azure AI Chatbot</h3>
+            <p>
+              I've put together a chatbot here which knows all my skills, work
+              experience and has a copy of my CV/Resume. You can use it to ask
+              questions about me to get a better idea of who I am and what I've
+              done.
+            </p>
+            <p>
+              You can also download my resume here if you want to take a look at
+              it. I'm currently looking for new opportunities so if you have a
+              project you think I'd be a good fit for, please get in touch!
+            </p>
+            <a href="./Sample_Resume_Template.pdf" class="button black"
+              >Download Resume</a
+            >
+          </div>
+          <div class="chat-box">
+            <div class="scroll-area">
+              <ul id="chat-log">
+                <li>
+                  <span class="avatar bot">AI</span>
+                  <div class="message">
+                    Hi, I'm a friendly chatbot that lets you interactive with
+                    this portfolio and CV. How can I help?
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar user">User</span>
+                  <div class="message">
+                    I have a question to ask you about this resume
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="chat-message">
+              <input
+                type="text"
+                placeholder="Hey Alex, what skills are you best at?"
+              />
+              <button class="button black">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
